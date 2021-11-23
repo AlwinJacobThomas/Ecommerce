@@ -5,7 +5,7 @@ const state = {
 
 module.exports.connect=(done)=>{
     const url = 'mongodb://localhost:27017'
-    const dbname = 'shopping'
+    const dbname = 'testing'
 
     mongoClient.connect(url,(err,data)=>{
         if(err) return done(err)
@@ -14,5 +14,5 @@ module.exports.connect=(done)=>{
     })
 }
 module.exports.get=()=>{
-    return state.db 
+    return state.db
 }
