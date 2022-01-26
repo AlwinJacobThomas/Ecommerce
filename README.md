@@ -12,7 +12,8 @@ To run the project:
 
 Run the following code
 ```
-npm start
+>npm install
+>npm start
 ```
 
 4. Open Browser and go to [Localhost](http://localhost:3000)
